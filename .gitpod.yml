@@ -1,4 +1,4 @@
-image: gclayburg/rungroovygitpod:latest
+image: gclayburg/rungroovygitpod:0.1.0-SNAPSHOT
 
 tasks:
   - init: 'echo "TODO: Replace with init/build command"'
