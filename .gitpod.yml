@@ -1,8 +1,8 @@
-image: gclayburg/rungroovygitpod:0.1.0-SNAPSHOT
+image: gclayburg/rungroovygitpod:0.2.0
 
 tasks:
   - init: 'echo "TODO: Replace with init/build command"'
-    command: "export JAVA_OPTS='-Xmx1024m -XX:TieredStopAtLevel=1 -noverify' && /home/gitpod/springboot/bootrunner.sh --groovyscript.home=/workspace/groovy-dsl-quickstart"
+    command: "export JAVA_OPTS='-Xmx1024m -XX:TieredStopAtLevel=1 -noverify' && /home/gitpod/springboot/bootrunner.sh"
 ports:
   - port: 8080
     onOpen: open-preview
